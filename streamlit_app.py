@@ -53,7 +53,7 @@ st.set_page_config(page_title="Fuel Price Analyzer", layout="wide")
 @st.cache_data
 
 def load_data():
-    data_path = r'C:\Users\NikHIL\Downloads\2024fuel.xlsx' #used python code to merge all big data files in one
+    data_path = r'https://github.com/Sahilcan-glitch/nsw-fuel-check/raw/main/fuelcheck_pricehistory_apr2024.xlsx' #used python code to merge all big data files in one
     return pd.read_excel(data_path)
 
 
